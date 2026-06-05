@@ -48,7 +48,7 @@ The dataset includes the following key attributes:
 Calculated actual sales revenue after discounts.
 
 Formula:
-UnitsSold × UnitPrice − Discount
+UnitsSold × UnitPrice x (1 - Discount / 100)
 
 #### Deductions
 
